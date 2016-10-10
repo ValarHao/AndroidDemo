@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSplitLine"/>
+
+    <RadioGroup
+        android:id="@+id/id_group"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+        
+        <RadioButton
+            android:id="@+id/id_button_chats"
+            style="@style/radio_button"
+            android:drawableTop="@drawable/chats_selecter"
+            android:text="@string/chats"/>
+
+        <RadioButton
+            android:id="@+id/id_button_contacts"
+            style="@style/radio_button"
+            android:drawableTop="@drawable/contacts_selecter"
+            android:text="@string/contacts"/>
+
+        <RadioButton
+            android:id="@+id/id_button_discover"
+            style="@style/radio_button"
+            android:drawableTop="@drawable/discover_selecter"
+            android:text="@string/discover"/>
+
+        <RadioButton
+            android:id="@+id/id_button_me"
+            style="@style/radio_button"
+            android:drawableTop="@drawable/me_selecter"
+            android:text="@string/me"/>
+
+    </RadioGroup>
+</LinearLayout>

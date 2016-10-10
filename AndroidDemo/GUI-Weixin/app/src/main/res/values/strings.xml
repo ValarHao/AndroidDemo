@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GUI-Weixin</string>
+    <string name="chats">chats</string>
+    <string name="contacts">contacts</string>
+    <string name="discover">discover</string>
+    <string name="me">me</string>
+</resources>
